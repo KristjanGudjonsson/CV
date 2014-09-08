@@ -21,8 +21,8 @@ header {
 
 header hgroup {
 	background-image: url('../images/bakgr.png');
+	background-repeat: no-repeat;
 	background-position: center;
-    background-color: #cccccc;
     height: 300px;
     margin: -50px;
 
