@@ -1,0 +1,121 @@
+body { 
+	background: #F8F6F4;
+	font-family: sans-serif;
+	color: #383838;
+	text-align: center; 
+}
+
+h3:hover {
+	color: grey;
+}
+
+li {
+	line-height: 175%;
+}
+
+header {
+	overflow: hidden;
+	clear: both;
+	margin-bottom;
+}
+
+header hgroup {
+	background-image: url('../images/bakgr.png');
+	background-position: center;
+    background-color: #cccccc;
+    height: 300px;
+    margin: -50px;
+
+}
+
+header hgroup h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 0 #b5ad9d;
+	padding-top: 100px;
+}
+
+header hgroup h2 {
+	font-size: 26px;
+	text-shadow: 3px 3px #b5ad9d;
+	font-weight: normal;
+}
+
+#sidebar {
+	float: left;
+	margin: 10px 0 0 10px;
+	width: 200px;
+}
+
+#sidebar nav {
+	clear: both;
+}
+
+#sidebar nav ul {
+	margin: 0; 
+	padding: 0; 
+	overflow: hidden;
+	width: 204px;
+}
+
+#sidebar nav ul li {
+	list-style: none;
+	float: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #938a78;
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 204px;
+}
+
+#sidebar nav ul li:last-child {
+	width: 204px;
+	border-bottom: 0;
+}
+
+#sidebar nav ul li a {
+	display: block;
+	background: #c1b7a7;
+	padding: 12px;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function: linear;
+}
+
+#sidebar nav ul li a:hover {
+	text-tecoration: none;
+	background: #9f443b;
+}
+
+#profilePic {
+	width: 200px;
+	float: left;
+	margin-top: -230px;
+	margin-bottom: 5px;
+	border-style: solid;
+	border-color: #938a78;
+	border-width: 2px;
+}
+
+.content {
+	margin-left: auto;
+    margin-right: 10%;
+    width: 65%;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+.content div {
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+}
+
+.content h2 {
+	text-align: center;
+}
