@@ -1,12 +1,34 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
 body { 
 	background: #F8F6F4;
 	font-family: sans-serif;
 	color: #383838;
-	text-align: center; 
+	text-align: center;
+
+	/*padding:10px;*/
+	padding-bottom:75px;   /* Height of the footer */	
+}
+
+p {
+	line-height: 135%;
+}
+
+.articles h2 {
+	color: #847c70;
+}
+
+h3 {
+	color: #847c70;
 }
 
 h3:hover {
-	color: grey;
+	color: #c1b7a7;
 }
 
 li {
@@ -39,6 +61,13 @@ header hgroup h2 {
 	font-size: 26px;
 	text-shadow: 3px 3px #b5ad9d;
 	font-weight: normal;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+	height: auto !important;
+	height: 100%;
 }
 
 #sidebar {
@@ -118,4 +147,32 @@ header hgroup h2 {
 
 .content h2 {
 	text-align: center;
+}
+
+#facebook_logo {
+	height: 30px;
+}
+
+#skemman_logo {
+	height: 30px;
+}
+
+.tabPadding {
+	padding-left: 2.5em;
+}
+
+#footerpad {
+	padding: 0 0 100px 0;
+}
+
+footer {
+	background-color: #c1b7a7;
+	font-size: 0.95em;
+	/*min-height: 75px;*/
+	height: 75px;
+	color: #fff;
+	width: 100%;
+	padding-top: 20px;
+	position: fixed;
+	bottom: 0;
 }

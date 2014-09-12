@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$(".articles").hide();
-	$("#umMig").show();
+	$("#samantekt").show();
 });
 
 function hideShow(id){
